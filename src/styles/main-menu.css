@@ -16,3 +16,9 @@ header {
 header .main-logo {
   height: 40px;
 }
+
+.menu-links {
+  font: 100px;
+  color: #000;
+  font-style: normal;
+}
