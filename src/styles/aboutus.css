@@ -1,0 +1,59 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('..//assets/background.png  ') no-repeat center top;
+      background-size: cover;
+      background-attachment: fixed;
+      background-color: #f8f8ff; /* fallback color if image fails */
+    color: #000;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  }
+  header .main-logo {
+    height: 40px;
+  }
+
+  .box-glass {
+    width: 292px; 
+    height: 410px;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border-radius: 20px; 
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  }
+
+  .abouts p {
+    max-width: 350px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: black;
+    text-align: left;
+    line-height: 18px;
+  }
+
+  .abouts h2 {
+    color: #2661e0;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  footer {
+    background-color: #bcd0e7;
+    text-align: center;
+    font-size: 14px;
+  }
+  footer p {
+    margin: 0.3rem 0;
+  }

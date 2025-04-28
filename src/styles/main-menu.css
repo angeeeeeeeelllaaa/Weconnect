@@ -17,8 +17,12 @@ header .main-logo {
   height: 40px;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu-links {
-  font: 100px;
-  color: #000;
-  font-style: normal;
+  list-style-type: none;
+  font-family: 'Poppins';
+  color: #0380EB;
 }
