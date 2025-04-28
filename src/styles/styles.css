@@ -113,12 +113,24 @@ body {
     padding: 30px
 
   }
- .benefit {
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    padding: 1rem;
-    max-width: 320px;
+
+  .glass-box {
+    width: 132px;
+    height: 122px;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border-radius: 20px; 
+    padding: 30px; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
+  }
+
+ .benefit-paperless, .benefit-sharing, .benefit-brand, .benefit-secure {
+    font-size: 12px;
+    font-family: 'Timmana';
+    padding-top: 10px;
+
   }
   footer {
     background-color: #bcd0e7;
