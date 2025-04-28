@@ -116,17 +116,16 @@ body {
 
   .container {
     display: flex;
-    flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
   }
 
   .glass-box {
-    flex: 1;
     gap: 30px;
     width: 132px;
     height: 122px;
-    border-radius: 20px; 
-    padding: 30px;
+    padding: 20px;
+    border-radius: 30px; 
     background: rgba(255, 255, 255, 0.2); 
     backdrop-filter: blur(15px); 
     -webkit-backdrop-filter: blur(15px);  
