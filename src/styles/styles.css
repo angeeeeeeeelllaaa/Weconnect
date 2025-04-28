@@ -49,6 +49,7 @@ body {
     justify-content: center;
     gap: 1rem;
     margin-top: 1rem;
+    padding: 20px;
   }
   .social-icons img {
     width: 52px;
@@ -61,18 +62,19 @@ body {
   .section h2 {
     color: #2661e0;
     font-size: 18px;
+    font-weight: bold;
   }
 
   .box-glass {
     width: 292px; 
-    height: 400px;
-    background: rgba(255, 255, 255, 0.2); /* semi-transparent white */
-    backdrop-filter: blur(15px); /* blur behind */
-    -webkit-backdrop-filter: blur(15px); /* for Safari */
-    border-radius: 20px; /* rounded corners */
-    padding: 2rem; /* inside padding */
-    border: 1px solid rgba(255, 255, 255, 0.3); /* subtle border */
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* optional soft shadow */
+    height: 410px;
+    background: rgba(255, 255, 255, 0.2); 
+    backdrop-filter: blur(15px); 
+    -webkit-backdrop-filter: blur(15px); 
+    border-radius: 20px; 
+    padding: 2rem; 
+    border: 1px solid rgba(255, 255, 255, 0.3); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); 
   }
 
   .abouts p {
@@ -87,6 +89,7 @@ body {
   .abouts h2 {
     color: #2661e0;
     font-size: 18px;
+    font-weight: bold;
     text-align: left;
   }
 
@@ -94,13 +97,23 @@ body {
     justify-content: center;
   }
 
+  .prodtitle {
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .prodcontent {
+    font-size: 11px;
+  }
   .products, .benefits {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 47px;
     align-items: center;
+    padding: 30px
+
   }
-  .product, .benefit {
+ .benefit {
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
