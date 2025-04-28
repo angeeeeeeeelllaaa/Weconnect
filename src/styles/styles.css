@@ -90,6 +90,10 @@ body {
     text-align: left;
   }
 
+  .card {
+    justify-content: center;
+  }
+
   .products, .benefits {
     display: flex;
     flex-direction: column;
