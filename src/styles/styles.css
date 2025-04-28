@@ -65,7 +65,7 @@ body {
 
   .box-glass {
     width: 292px; 
-    height: 356px;
+    height: 400px;
     background: rgba(255, 255, 255, 0.2); /* semi-transparent white */
     backdrop-filter: blur(15px); /* blur behind */
     -webkit-backdrop-filter: blur(15px); /* for Safari */
