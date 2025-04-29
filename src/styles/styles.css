@@ -116,14 +116,14 @@ body {
 
   .container {
     display: flex;
-    gap: 20px;
+    position: relative;
     justify-content: center;
+    gap: 20px;
   }
 
   .glass-box {
-    gap: 30px;
-    width: 132px;
-    height: 122px;
+    width: 130px;
+    height: 130px;
     padding: 20px;
     border-radius: 30px; 
     background: rgba(255, 255, 255, 0.2); 
@@ -137,7 +137,9 @@ body {
     font-size: 12px;
     font-family: 'Timmana';
     padding-top: 10px;
-
+  }
+  .benefit-sharing {
+    padding-top: 5px;
   }
   footer {
     background-color: #bcd0e7;
