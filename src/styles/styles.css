@@ -141,12 +141,27 @@ body {
   .benefit-sharing {
     padding-top: 5px;
   }
+  
   footer {
     background-color: #bcd0e7;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 20px;
     font-size: 14px;
   }
-  footer p {
-    margin: 0.3rem 0;
+  footer a {
+    margin: 15px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #000;
   }
+  footer strong {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0380EB;
+  }
+  footer p {
+    margin: 15px;
+    padding-bottom: 5px;
+    color: #0380EB;
+  }
+
